@@ -14,11 +14,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-	title: 'Monda Hiroki - Software Developer',
-	description: 'Monda Hiroki - Full Stack Developer specializing in MERN stack, React.js, Node.js, and modern web technologies. Expert in database development and web applications.',
-	keywords: 'Monda Hiroki, Niladri1, niladri1, Software Developer, Full Stack Developer, MERN Stack, Web Developer, React Developer, Next.js Expert, Database Developer, Frontend Specialist, Backend Developer, JavaScript Expert, TypeScript Developer, Node.js Developer, MongoDB Expert, SQL Developer',
-	authors: [{ name: 'Monda Hiroki' }],
-	creator: 'Monda Hiroki',
+	title: 'Code Forge - Software Developer',
+	description: 'Code Forge - Full Stack Developer specializing in MERN stack, React.js, Node.js, and modern web technologies. Expert in database development and web applications.',
+	keywords: 'Code Forge, Niladri1, niladri1, Software Developer, Full Stack Developer, MERN Stack, Web Developer, React Developer, Next.js Expert, Database Developer, Frontend Specialist, Backend Developer, JavaScript Expert, TypeScript Developer, Node.js Developer, MongoDB Expert, SQL Developer',
+	authors: [{ name: 'Code Forge' }],
+	creator: 'Code Forge',
 	manifest: '/manifest.json',
 	themeColor: '#000000',
 	viewport: 'width=device-width, initial-scale=1, maximum-scale=5',
@@ -26,13 +26,13 @@ export const metadata: Metadata = {
 		type: 'website',
 		locale: 'en_US',
 		url: 'https://niladri1.vercel.app/',
-		title: 'Monda Hiroki - Full Stack Developer',
+		title: 'Code Forge - Full Stack Developer',
 		description: 'Full-stack developer specializing in MERN stack, React.js, Node.js, and modern web technologies.',
-		siteName: 'Monda Hiroki Portfolio',
+		siteName: 'Code Forge Portfolio',
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: 'Monda Hiroki - Full Stack Developer',
+		title: 'Code Forge - Full Stack Developer',
 		description: 'Full-stack developer specializing in MERN stack, React.js, Node.js, and modern web technologies.',
 		creator: '@niladri_dev',
 	},

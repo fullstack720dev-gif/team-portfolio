@@ -2,8 +2,8 @@ import Education from '@/pages/Education';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-	title: 'Education - Monda Hiroki',
-	description: 'Monda Hiroki\'s educational background including B.Tech in Computer Science and Engineering from Bengal College of Engineering and Technology.',
+	title: 'Education - Code Forge',
+	description: 'Code Forge\'s educational background including B.Tech in Computer Science and Engineering from Bengal College of Engineering and Technology.',
 };
 
 export default function EducationPage() {
