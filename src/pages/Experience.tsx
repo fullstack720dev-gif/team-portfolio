@@ -6,10 +6,10 @@ import { ScrollAnimation } from '@/components/ScrollAnimation';
 
 const experiences = [
 	{
-		title: "Software Engineering Intern",
-		company: "Code Alpha",
+		title: "Senior Software Engineer",
+		company: "NTT DATA",
 		location: "Remote",
-		period: "Jun 2024 - Aug2024",
+		period: "Oct 2024 - Dec 2025",
 		type: "Internship",
 		image: "/experience/codeAlpha_page.jpg",
 		certificateUrl: "/files/experience_pdf/codeAlpha.pdf",
@@ -19,10 +19,10 @@ const experiences = [
 		]
 	},
 	{
-		title: "Full Stack Development Intern ",
-		company: "Bharat Intern",
+		title: "Senior Software Engineer",
+		company: "CloudStaff",
 		location: "Remote",
-		period: "Jun 2024 - Jul 2024",
+		period: "Mar 2021 - Aug 2024",
 		type: "Internship",
 		image: "/experience/bharatIntern_page.jpg",
 		certificateUrl: "/files/experience_pdf/bharatIntern.pdf",
@@ -32,10 +32,10 @@ const experiences = [
 		]
 	},
 	{
-		title: "Web Applications Intern",
-		company: "CodeClause",
+		title: "Senior Full Stack Developer",
+		company: "Chromedia",
 		location: "Remote",
-		period: "Jun 2023 - Jul 2023",
+		period: "Jun 2020 - Feb 2021",
 		type: "Internship",
 		image: "/experience/codeClause_page.jpg",
 		certificateUrl: "/files/experience_pdf/codeClause.pdf",
@@ -45,10 +45,10 @@ const experiences = [
 		]
 	},
 	{
-		title: "Junior Software Engineer",
-		company: "Oasis Infobyte",
+		title: "Full Stack Developer",
+		company: "Symph",
 		location: "Remote",
-		period: "Jun 2023 - Jul 2023",
+		period: "Aug 2017 - May 2020",
 		type: "Internship",
 		image: "/experience/oasisInfobyte_page.jpg",
 		certificateUrl: "/files/experience_pdf/oasisInfobyte.pdf",
