@@ -37,7 +37,7 @@ const Footer = () => {
 							<span className="text-xl font-bold text-white">Code Forge</span>
 						</Link>
 						<p className="text-sm text-gray-400">
-							Software Developer based in Kolkata, WB, India.
+							Software Developer based in Philippines.
 						</p>
 					</div>
 
@@ -48,16 +48,16 @@ const Footer = () => {
 							<li>
 								<a href="mailto:fullstack720.dev@gmail.com" className="text-sm text-gray-400 hover:text-white transition-colors flex items-center gap-2">
 									<Mail className="w-4 h-4" />
-									fullstack720.dev@gmail.com
+									juliusjomel99@gmail.com
 								</a>
 							</li>
 							<li>
 								<a
-									href="tel:+81850623756"
+									href="tel:+638481225"
 									className="text-sm text-gray-400 hover:text-white transition-colors flex items-center gap-2"
 								>
 									<Phone className="w-4 h-4" />
-									+81850623756
+									+638481225
 								</a>
 							</li>
 						</ul>
@@ -111,23 +111,7 @@ const Footer = () => {
 						<h3 className="text-sm font-semibold text-white">Social</h3>
 						<div className="flex space-x-4">
 							<a
-								href="https://github.com/niladri-1"
-								target="_blank"
-								rel="noopener noreferrer"
-								className="text-gray-400 hover:text-white transition-colors"
-							>
-								<Github className="w-5 h-5" />
-							</a>
-							<a
-								href="https://linkedin.com/in/niladri1"
-								target="_blank"
-								rel="noopener noreferrer"
-								className="text-gray-400 hover:text-white transition-colors"
-							>
-								<Linkedin className="w-5 h-5" />
-							</a>
-							<a
-								href="mailto:fullstack720.dev@gmail.com"
+								href="mailto:juliusjomel99@gmail.com"
 								className="text-gray-400 hover:text-white transition-colors"
 							>
 								<Mail className="w-5 h-5" />

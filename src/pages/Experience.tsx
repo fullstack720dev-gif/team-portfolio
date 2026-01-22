@@ -14,8 +14,8 @@ const experiences = [
 		image: "/experience/codeAlpha_page.jpg",
 		certificateUrl: "/files/experience_pdf/codeAlpha.pdf",
 		description: [
-			"Optimized web application performance with JavaScript and React.js, achieving a 98% error-free rate",
-			"Implemented advanced features on a React.js platform, resulting in a 40% surge in user interaction"
+			"Designed and implemented RESTful APIs with Web API and integrated real-time functionalities using SignalR for improved user engagement.",
+			"Collaborated with front-end teams to develop responsive user interfaces using React and TypeScript, ensuring seamless integration with backend services."
 		]
 	},
 	{
@@ -27,8 +27,8 @@ const experiences = [
 		image: "/experience/bharatIntern_page.jpg",
 		certificateUrl: "/files/experience_pdf/bharatIntern.pdf",
 		description: [
-			"Designed 3 websites with CSS, JavaScript, React.js, Node.js and MongoDB, resulting in a 30% increase in user engagement",
-			"Built a money tracker app using HTML, CSS, React.js, Node.js, and MongoDB, improving user financial tracking by 25%"
+			"Developed scalable enterprise web applications using C#, ASP.NET Core, MVC, and React/TypeScript, improving load times by 30%.",
+			"Designed and deployed RESTful APIs and integrated real-time features via SignalR to enhance user engagement."
 		]
 	},
 	{
@@ -40,8 +40,8 @@ const experiences = [
 		image: "/experience/codeClause_page.jpg",
 		certificateUrl: "/files/experience_pdf/codeClause.pdf",
 		description: [
-			"Engineered a real-time collaborative document editor using Next.js, TypeScript, and Liveblocks, reducing latency by 30%",
-			"Implemented and optimized a personal portfolio with Next.js and Tailwind CSS, improving performance by 40%"
+			"Integrated secure APIs and implemented distributed system design patterns for high availability and scalability.",
+			"Collaborated with cross-functional teams to deliver solutions aligned with business goals in agile environments."
 		]
 	},
 	{
@@ -53,8 +53,8 @@ const experiences = [
 		image: "/experience/oasisInfobyte_page.jpg",
 		certificateUrl: "/files/experience_pdf/oasisInfobyte.pdf",
 		description: [
-			"Engineered a real-time collaborative document editor using Next.js, TypeScript, and Liveblocks, reducing latency by 30%",
-			"Implemented and optimized a personal portfolio with Next.js and Tailwind CSS, improving performance by 40%"
+			"Managed database migrations and query performance improvements in PostgreSQL and MySQL.",
+			"Supported DevOps initiatives by setting up Jenkins CI/CD pipelines, accelerating deployment cycles."
 		]
 	},
 ];
