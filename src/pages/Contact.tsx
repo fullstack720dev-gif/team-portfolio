@@ -127,25 +127,7 @@ const Contact = () => {
 						>
 							<h3 className="text-lg sm:text-xl font-semibold mb-4 sm:mb-6">Connect with Me</h3>
 							<div className="flex flex-wrap gap-3 sm:gap-4">
-								{socialLinks.map((social, index) => (
-									<motion.a
-										key={social.label}
-										href={social.link}
-										target="_blank"
-										rel="noopener noreferrer"
-										initial={{ opacity: 0, scale: 0.9 }}
-										animate={{ opacity: 1, scale: 1 }}
-										transition={{ duration: 0.5, delay: 0.5 + index * 0.1 }}
-										className="flex items-center gap-2 px-3 sm:px-4 py-2 bg-white/5 rounded-lg hover:bg-white/10 transition-colors group flex-1 sm:flex-none justify-center sm:justify-start"
-									>
-										<span className="text-gray-400 group-hover:text-white transition-colors">
-											{social.icon}
-										</span>
-										<span className="text-gray-400 group-hover:text-white transition-colors text-sm">
-											{social.label}
-										</span>
-									</motion.a>
-								))}
+								
 							</div>
 						</motion.div>
 
