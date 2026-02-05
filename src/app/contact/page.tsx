@@ -2,8 +2,8 @@ import Contact from '@/pages/Contact';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-	title: 'Contact - Code Forge',
-	description: 'Get in touch with Code Forge, a Software Developer specializing in full-stack development.',
+	title: 'Contact - OrbitStack',
+	description: 'Get in touch with OrbitStack, a Software Developer specializing in full-stack development.',
 };
 
 export default function ContactPage() {
