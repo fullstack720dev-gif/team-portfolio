@@ -29,24 +29,24 @@ const Contact = () => {
 		{
 			icon: <Mail className="w-5 h-5" />,
 			label: 'Email',
-			value: 'juliusjomel99@gmail.com',
-			link: 'mailto:juliusjomel99@gmail.com'
+			value: 'www.starlester114@gmail.com',
+			link: 'mailto:www.starlester114@gmail.com'
 		},
 		{
 			icon: <Phone className="w-5 h-5" />,
 			label: 'Phone',
-			value: '+638481225',
-			link: 'tel:+638481225'
+			value: '+639472241525',
+			link: 'tel:+639472241525'
 		},
 		{
 			icon: <MapPin className="w-5 h-5" />,
 			label: 'Location',
-			value: 'Philippines'
+			value: 'Worldwide'
 		},
 		{
 			icon: <Clock className="w-5 h-5" />,
 			label: 'Time Zone',
-			value: 'PST (UTC+8)'
+			value: 'EST (UTC -5)'
 		}
 	];
 
@@ -122,25 +122,13 @@ const Contact = () => {
 						<motion.div
 							initial={{ opacity: 0, y: 20 }}
 							animate={{ opacity: 1, y: 0 }}
-							transition={{ duration: 0.8, delay: 0.4 }}
-							className="bg-gray-800/50 p-5 sm:p-6 rounded-xl backdrop-blur-sm"
-						>
-							<h3 className="text-lg sm:text-xl font-semibold mb-4 sm:mb-6">Connect with Me</h3>
-							<div className="flex flex-wrap gap-3 sm:gap-4">
-								
-							</div>
-						</motion.div>
-
-						<motion.div
-							initial={{ opacity: 0, y: 20 }}
-							animate={{ opacity: 1, y: 0 }}
 							transition={{ duration: 0.8, delay: 0.6 }}
 							className="bg-gray-800/50 p-5 sm:p-6 rounded-xl backdrop-blur-sm"
 						>
 							<h3 className="text-lg sm:text-xl font-semibold mb-4">Office Hours</h3>
 							<div className="space-y-2 text-gray-400 text-sm sm:text-base">
-								<p>Monday - Friday: 9:00 AM - 6:00 PM (PST)</p>
-								<p>Saturday: 10:00 AM - 2:00 PM (PST)</p>
+								<p>Monday - Friday: 9:00 AM - 6:00 PM (EST)</p>
+								<p>Saturday: 10:00 AM - 2:00 PM (EST)</p>
 								<p>Sunday: Closed</p>
 							</div>
 						</motion.div>

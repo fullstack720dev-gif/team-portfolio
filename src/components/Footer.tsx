@@ -10,13 +10,13 @@ const Footer = () => {
 	const pageLinks = [
 		{ name: 'Home', path: '/' },
 		{ name: 'About', path: '/about' },
-		{ name: 'Education', path: '/education' },
-		{ name: 'Experience', path: '/experience' },
+		// { name: 'Education', path: '/education' },
+		// { name: 'Experience', path: '/experience' },
 		{ name: 'Skills', path: '/skills' },
 		{ name: 'Projects', path: '/projects' },
-		{ name: 'Certificates', path: '/certificates' },
+		// { name: 'Certificates', path: '/certificates' },
 		{ name: 'Contact', path: '/contact' },
-		{ name: 'Kali Linux', path: '/kali' },
+		// { name: 'Kali Linux', path: '/kali' },
 	];
 
 	// Split links into columns of 3
@@ -34,10 +34,10 @@ const Footer = () => {
 					<div className="space-y-4">
 						<Link href="/" className="flex items-center space-x-3">
 							<Code2 className="w-8 h-8 text-white" />
-							<span className="text-xl font-bold text-white">Code Forge</span>
+							<span className="text-xl font-bold text-white">OrbitStack</span>
 						</Link>
 						<p className="text-sm text-gray-400">
-							Software Developer based in Philippines.
+							Software Developers based in the World.
 						</p>
 					</div>
 
@@ -48,16 +48,16 @@ const Footer = () => {
 							<li>
 								<a href="mailto:fullstack720.dev@gmail.com" className="text-sm text-gray-400 hover:text-white transition-colors flex items-center gap-2">
 									<Mail className="w-4 h-4" />
-									juliusjomel99@gmail.com
+									www.starlester114@gmail.com
 								</a>
 							</li>
 							<li>
 								<a
-									href="tel:+638481225"
+									href="tel:+639472241525"
 									className="text-sm text-gray-400 hover:text-white transition-colors flex items-center gap-2"
 								>
 									<Phone className="w-4 h-4" />
-									+638481225
+									+639472241525
 								</a>
 							</li>
 						</ul>
@@ -111,7 +111,7 @@ const Footer = () => {
 						<h3 className="text-sm font-semibold text-white">Social</h3>
 						<div className="flex space-x-4">
 							<a
-								href="mailto:juliusjomel99@gmail.com"
+								href="mailto:www.starlester114@gmail.com"
 								className="text-gray-400 hover:text-white transition-colors"
 							>
 								<Mail className="w-5 h-5" />
@@ -124,14 +124,14 @@ const Footer = () => {
 				<div className="border-t border-white/10 py-6">
 					<div className="flex flex-col md:flex-row justify-between items-center">
 						<p className="text-sm text-gray-400">
-							© {currentYear} Code Forge. All rights reserved.
+							© {currentYear} OrbitStack. All rights reserved.
 						</p>
 						<div className="flex space-x-6 mt-4 md:mt-0">
 							<a href="" rel="noopener noreferrer" className="text-sm text-gray-400 hover:text-white transition-colors flex items-center gap-2">
 								<svg className="w-3 h-3" fill="currentColor" viewBox="0 0 32 32">
 									<path d="M12 1L24 22H0L12 1Z" />
 								</svg>
-								Code Forge's Portfolio
+								OrbitStack's Portfolio
 							</a>
 						</div>
 					</div>
