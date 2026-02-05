@@ -8,19 +8,14 @@ const About = () => {
 	const achievements = [
 		{
 			icon: <Code2 className="w-6 h-6" />,
-			title: "10+ Projects",
+			title: "30+ Projects",
 			description: "Completed full-stack web applications"
 		},
 		{
 			icon: <Briefcase className="w-6 h-6" />,
-			title: "3+ Internships",
+			title: "10+ Internships",
 			description: "Professional work experience"
 		},
-		{
-			icon: <GraduationCap className="w-6 h-6" />,
-			title: "8.48 CGPA",
-			description: "Academic excellence"
-		}
 	];
 
 	const interests = [
@@ -29,7 +24,9 @@ const About = () => {
 		"Cloud Computing",
 		"DevOps",
 		"Open Source",
-		"Artificial Intelligence"
+		"Artificial Intelligence",
+		"AI Trading",
+		"Crypto and Blockchain"
 	];
 
 	return (
@@ -40,65 +37,30 @@ const About = () => {
 				</motion.h2>
 			</ScrollAnimation>
 
-			<div className="grid md:grid-cols-2 gap-8">
-				<ScrollAnimation>
-					<div className="aspect-square overflow-hidden rounded-2xl">
-						<img
-							src="/profile/profile.png"
-							alt="Code Forge"
-							className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
-						/>
-					</div>
-				</ScrollAnimation>
+			<div className="gap-8">
 
 				<ScrollAnimation className="space-y-6">
 					<div className="space-y-4">
 						<p className="text-gray-300 leading-relaxed">
-							Hi! I'm a passionate full-stack developer with expertise in building modern web applications. My journey in tech started during my college years, where I discovered my love for creating innovative solutions through code.
+							OrbitStack is a distributed software engineering team delivering end-to-end product development for startups and growing businesses.
+						</p> 
+						<p className="text-gray-300 leading-relaxed">
+							With team members across the Philippines, Singapore, and the other countries, we operate as a remote-first unit built for speed, clarity, and consistent delivery across time zones. 
+						</p> 
+						<p className="text-gray-300 leading-relaxed">
+							We build scalable solutions across mobile and web applications, frontend and backend systems, AI-enabled features, and blockchain-based platforms—always with a focus on security, performance, and maintainability.
 						</p>
 						<p className="text-gray-300 leading-relaxed">
-							Currently pursuing my B.Tech in Computer Science, I've maintained a strong academic record while actively engaging in real-world projects and internships. This blend of theoretical knowledge and practical experience has shaped my approach to problem-solving and software development.
+							Our approach combines strong technical execution with structured communication: clear requirements, fast iterations, and transparent progress from planning to deployment. 
 						</p>
 						<p className="text-gray-300 leading-relaxed">
-							I specialize in React, Node.js, and modern web technologies, with a keen interest in creating performant and user-friendly applications. My experience includes working with various startups and contributing to open-source projects.
+							We work comfortably with modern stacks and cloud infrastructure, integrating APIs, databases, real-time systems, and third-party services to meet real production needs. 
+						</p>
+						<p className="text-gray-300 leading-relaxed">
+							Whether you need an MVP, a full product rebuild, or a dedicated team to extend your existing platform, we bring senior-level engineering discipline, reliable delivery, and long-term partnership mindset.
 						</p>
 					</div>
 
-					<ScrollAnimation>
-						<div className="pt-4">
-							<h3 className="text-2xl font-semibold mb-4 gradient-text">Quick Facts</h3>
-							<ul className="list-none space-y-3">
-								{["Based in Philippines", "Bachelor Degree in Computer Science", "SOUTHERN BAPTIST COLLEGE"].map((fact, index) => (
-									<motion.li
-										key={fact}
-										className="flex items-center space-x-2 text-gray-300"
-									>
-										<span className="w-2 h-2 bg-white rounded-full" />
-										<span>{fact}</span>
-									</motion.li>
-								))}
-							</ul>
-						</div>
-					</ScrollAnimation>
-
-					<ScrollAnimation>
-						<div className="flex justify-start space-x-4">
-							<a
-								href="/files/cv_pdf/Julius_Jomel(CV).pdf"
-								target="_blank"
-								rel="noopener noreferrer"
-								className="px-6 py-3 bg-white text-black rounded-full font-medium hover:bg-gray-100 transition-colors"
-							>
-								Download CV
-							</a>
-							<a
-								href="/skills"
-								className="px-6 py-3 bg-white/10 text-white rounded-full font-medium hover:bg-white/20 transition-colors"
-							>
-								My Skills
-							</a>
-						</div>
-					</ScrollAnimation>
 				</ScrollAnimation>
 			</div>
 
