@@ -11,7 +11,7 @@ const fetcher = (url: string) => fetch(url).then(res => res.json());
 
 const Home = () => {
 	const [copied, setCopied] = useState(false);
-	const email = 'fullstack720.dev@gmail.com';
+	const email = 'www.starlester114@gmail.com';
 	const whatsappNumber = '+';
 
 	const { data: githubData } = useSWR('https://api.github.com/users/fullstack720dev-gif', fetcher);
@@ -50,7 +50,7 @@ const Home = () => {
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 0.8 }}
 				>
-					Code Forge
+					OrbitStack
 				</motion.h1>
 				<motion.h1
 					className="text-2xl sm:text-4xl md:text-6xl font-bold mb-4 sm:mb-6 relative tracking-tighter"
